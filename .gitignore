@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+data/generated/
+*.pkl
+figures/*/legacy_unclassified/
+.DS_Store
+.pytest_cache/
+*.egg-info/
+Thumbs.db

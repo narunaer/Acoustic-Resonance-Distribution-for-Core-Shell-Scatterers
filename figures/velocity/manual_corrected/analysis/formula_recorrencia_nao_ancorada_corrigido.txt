@@ -1,0 +1,18 @@
+Recorrência não ancorada
+
+ln[x_M(n+1)] = c0 + c_logx*ln[x_M(n)] + c_eta*eta + c_delta*delta
+               + c_logx2*ln[x_M(n)]^2 + c_eta2*eta^2 + c_delta2*delta^2
+               + c_logx_eta*ln[x_M(n)]*eta + c_logx_delta*ln[x_M(n)]*delta + c_eta_delta*eta*delta
+
+x_M(n+1) = exp(expressao_acima)
+
+c0 = +8.864859032166e-03
+c_logx = +1.006672478998e+00
+c_eta = +1.687958029574e-02
+c_delta = -8.519232198319e-03
+c_logx2 = +2.207316043841e-02
+c_eta2 = +2.796917779230e-02
+c_delta2 = +8.830789923867e-03
+c_logx_eta = -1.552141206036e-02
+c_logx_delta = +2.279819575376e-02
+c_eta_delta = -2.276661100594e-02

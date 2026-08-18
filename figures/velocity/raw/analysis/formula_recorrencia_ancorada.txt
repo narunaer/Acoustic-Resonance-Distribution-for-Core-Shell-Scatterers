@@ -1,0 +1,20 @@
+Recorrência ancorada
+
+x_M(n+1) = x_ref * A(eta,delta) + x_M(n) * B(eta,delta)
+A(eta,delta) = a0 + a_eta*eta + a_delta*delta + a_eta2*eta^2 + a_eta_delta*eta*delta + a_delta2*delta^2
+B(eta,delta) = b0 + b_eta*eta + b_delta*delta + b_eta2*eta^2 + b_eta_delta*eta*delta + b_delta2*delta^2
+
+x_ref = sqrt(3) * alpha
+
+a0 = +4.533806322140e-01
+a_eta = -4.861353765882e-01
+a_delta = -1.716587243310e-01
+a_eta2 = +3.280925078083e-02
+a_eta_delta = +1.715529613150e-01
+a_delta2 = +4.625026641134e-05
+b0 = +1.006893240553e+00
+b_eta = +1.110270010744e-02
+b_delta = -1.032476838109e-02
+b_eta2 = +3.142017537394e-03
+b_eta_delta = -9.885494963021e-03
+b_delta2 = +4.936100168607e-03

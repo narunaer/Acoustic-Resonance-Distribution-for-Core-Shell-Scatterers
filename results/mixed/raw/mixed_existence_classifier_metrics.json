@@ -1,0 +1,23 @@
+{
+  "training": {
+    "N": 5440,
+    "Positive_rate": 0.40294117647058825,
+    "Accuracy": 0.9803308823529412,
+    "Precision": 0.9784304726938963,
+    "Recall": 0.9726277372262774,
+    "F1": 0.9755204758636468,
+    "ROC_AUC": 0.9980302308439106
+  },
+  "test": {
+    "N": 1360,
+    "Positive_rate": 0.40661764705882353,
+    "Accuracy": 0.9852941176470589,
+    "Precision": 0.9836660617059891,
+    "Recall": 0.9801084990958409,
+    "F1": 0.9818840579710145,
+    "ROC_AUC": 0.9981087724723318
+  },
+  "regime": "mixed",
+  "variant": "raw",
+  "checkpoint": "C:\\Users\\Narun\\Downloads\\core_shell_article_repo\\data\\checkpoints\\mixed\\raw\\checkpoint_coreshell_total_lmax10_mixed_final.npz"
+}

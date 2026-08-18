@@ -1,0 +1,22 @@
+RESONANCE-EXISTENCE CLASSIFIER
+==============================
+
+P_res(alpha,beta,delta) = 1 / (1 + exp[-g(alpha,beta,delta)])
+
+g(alpha,beta,delta) = c0 + c1*ln(alpha) + c2*ln(beta) + c3*delta + c4*[ln(alpha)]^2 + c5*ln(alpha)*ln(beta) + c6*delta*ln(alpha) + c7*[ln(beta)]^2 + c8*delta*ln(beta) + c9*delta^2
+
+Decision used by the classifier:
+  resonance     if P_res >= 0.5
+  no resonance  if P_res < 0.5
+
+COEFFICIENTS
+c0 = -5.323954545131e+00
+c1 = -1.694506023493e+00
+c2 = -1.031327099865e+00
+c3 = +3.754582179709e+00
+c4 = +1.450599263416e-01
+c5 = -2.817133940280e-01
+c6 = +3.663314805711e-01
+c7 = +3.218971702925e-01
+c8 = +5.102631996489e-02
+c9 = -1.547676215998e+00

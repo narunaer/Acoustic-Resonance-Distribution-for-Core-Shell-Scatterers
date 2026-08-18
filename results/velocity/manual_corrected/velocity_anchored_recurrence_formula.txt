@@ -1,0 +1,27 @@
+ANCHORED RESONANCE RECURRENCE
+================================
+
+x_M(n+1) = x_ref * A(eta,delta) + B(eta,delta) * x_M(n)
+
+A(eta,delta) = a0 + a_eta*eta + a_delta*delta + a_eta2*eta^2 + a_eta_delta*eta*delta + a_delta2*delta^2
+B(eta,delta) = b0 + b_eta*eta + b_delta*delta + b_eta2*eta^2 + b_eta_delta*eta*delta + b_delta2*delta^2
+
+x_ref = sqrt(3) * alpha
+
+NUMERICAL FORM FOR THIS FIT
+A(eta,delta) = (+4.444681433454e-01) (-4.628068621981e-01)*eta (-1.752411642588e-01)*delta (+1.839476880875e-02)*eta^2 (+1.751272928927e-01)*eta*delta (+5.221838301936e-05)*delta^2
+B(eta,delta) = (+1.006603769803e+00) (+1.028850109861e-02)*eta (-9.140038858700e-03)*delta (+3.251760009173e-03)*eta^2 (-9.301638010074e-03)*eta*delta (+4.313871146324e-03)*delta^2
+
+COEFFICIENTS
+a0 = +4.444681433454e-01
+a_eta = -4.628068621981e-01
+a_delta = -1.752411642588e-01
+a_eta2 = +1.839476880875e-02
+a_eta_delta = +1.751272928927e-01
+a_delta2 = +5.221838301936e-05
+b0 = +1.006603769803e+00
+b_eta = +1.028850109861e-02
+b_delta = -9.140038858700e-03
+b_eta2 = +3.251760009173e-03
+b_eta_delta = -9.301638010074e-03
+b_delta2 = +4.313871146324e-03

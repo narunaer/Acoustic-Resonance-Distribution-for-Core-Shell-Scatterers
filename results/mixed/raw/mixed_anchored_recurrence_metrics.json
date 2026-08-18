@@ -1,0 +1,24 @@
+{
+  "training": {
+    "N": 34271,
+    "r": 0.9917623919504583,
+    "R2": 0.9786999212573613,
+    "RMSE": 0.03783610277637035,
+    "MAE": 0.025245914606889158,
+    "MAPE_percent": 6.721329772103589
+  },
+  "test": {
+    "N": 8411,
+    "r": 0.9914223811847879,
+    "R2": 0.9779254912539671,
+    "RMSE": 0.03853813601201703,
+    "MAE": 0.025659086218745072,
+    "MAPE_percent": 6.809571457282535
+  },
+  "rank": 12,
+  "condition_number": 3033.298070995607,
+  "regime": "mixed",
+  "variant": "raw",
+  "mix_factor": 0.5,
+  "checkpoint": "C:\\Users\\Narun\\Downloads\\core_shell_article_repo\\data\\checkpoints\\mixed\\raw\\checkpoint_coreshell_total_lmax10_mixed_final.npz"
+}

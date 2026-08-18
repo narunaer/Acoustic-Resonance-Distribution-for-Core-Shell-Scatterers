@@ -1,0 +1,17 @@
+Classificador de existência de ressonância
+
+P_res(alpha,beta,delta) = 1 / (1 + exp[-g(alpha,beta,delta)])
+g = c0 + c1*ln(alpha) + c2*ln(beta) + c3*delta
+    + c4*[ln(alpha)]^2 + c5*ln(alpha)*ln(beta) + c6*delta*ln(alpha)
+    + c7*[ln(beta)]^2 + c8*delta*ln(beta) + c9*delta^2
+
+c0 = -4.770234059015e+00
+c1 = -1.624175480572e+00
+c2 = -1.214579835526e+00
+c3 = +2.553184496231e+00
+c4 = +1.882280730072e-01
+c5 = -1.917041010143e-01
+c6 = +1.336816697751e-01
+c7 = +3.345314576529e-01
+c8 = -6.710888963559e-01
+c9 = -1.414922471145e+00

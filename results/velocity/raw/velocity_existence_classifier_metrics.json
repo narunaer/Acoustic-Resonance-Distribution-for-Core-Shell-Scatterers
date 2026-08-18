@@ -1,0 +1,23 @@
+{
+  "training": {
+    "N": 5440,
+    "Positive_rate": 0.4303308823529412,
+    "Accuracy": 0.98125,
+    "Precision": 0.9869508481948673,
+    "Recall": 0.9692439128577531,
+    "F1": 0.9780172413793103,
+    "ROC_AUC": 0.9987343480327879
+  },
+  "test": {
+    "N": 1360,
+    "Positive_rate": 0.43308823529411766,
+    "Accuracy": 0.9882352941176471,
+    "Precision": 0.9931153184165232,
+    "Recall": 0.9796264855687606,
+    "F1": 0.9863247863247864,
+    "ROC_AUC": 0.999165416994224
+  },
+  "regime": "velocity",
+  "variant": "raw",
+  "checkpoint": "C:\\Users\\Narun\\Downloads\\core_shell_article_repo\\data\\checkpoints\\velocity\\raw\\checkpoint_coreshell_total_lmax10_sound_speed_final.npz"
+}

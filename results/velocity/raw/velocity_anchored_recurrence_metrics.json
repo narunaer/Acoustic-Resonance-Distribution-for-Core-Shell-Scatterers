@@ -1,0 +1,24 @@
+{
+  "training": {
+    "N": 247274,
+    "r": 0.9994004808065936,
+    "R2": 0.9987667921118932,
+    "RMSE": 0.01003680575526105,
+    "MAE": 0.003521536588580956,
+    "MAPE_percent": 1.3456022017103053
+  },
+  "test": {
+    "N": 62902,
+    "r": 0.9993824096922622,
+    "R2": 0.9987287388053392,
+    "RMSE": 0.010202958085390844,
+    "MAE": 0.003566682638021989,
+    "MAPE_percent": 1.347965290793905
+  },
+  "rank": 12,
+  "condition_number": 19561.824478604223,
+  "regime": "velocity",
+  "variant": "raw",
+  "mix_factor": 0.5,
+  "checkpoint": "C:\\Users\\Narun\\Downloads\\core_shell_article_repo\\data\\checkpoints\\velocity\\raw\\checkpoint_coreshell_total_lmax10_sound_speed_final.npz"
+}
