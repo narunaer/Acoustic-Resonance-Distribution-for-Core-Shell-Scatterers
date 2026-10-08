@@ -1,0 +1,21 @@
+P_res(alpha,beta,delta) = 1 / (1 + exp[-g(alpha,beta,delta)])
+g = c0 + c1 ln(alpha) + c2 ln(beta) + c3 delta + c4 [ln(alpha)]^2 + c5 ln(alpha)ln(beta) + c6 delta ln(alpha) + c7 [ln(beta)]^2 + c8 delta ln(beta) + c9 delta^2
+Existe ressonancia quando P_res >= 0.5, equivalentemente g >= 0.
+
+COEFICIENTES (valor, erro padrao)
+c0 = -5.095345177778e+00  +- 2.578e-01
+c1 = -2.071119179924e+00  +- 1.073e-01
+c2 = -2.372794235571e-01  +- 6.502e-02
+c3 = +5.124518164502e+00  +- 5.608e-01
+c4 = +3.894744671716e-02  +- 1.060e-02
+c5 = -4.395745635203e-01  +- 2.427e-02
+c6 = +6.489470953773e-01  +- 9.194e-02
+c7 = +5.182772547490e-01  +- 2.399e-02
+c8 = +2.509904003564e-01  +- 7.571e-02
+c9 = -2.063147445341e+00  +- 3.455e-01
+
+LATEX
+\begin{aligned}
+P_{\mathrm{res}}(\alpha,\beta,\delta)&=\frac{1}{1+\exp[-g(\alpha,\beta,\delta)]},\\
+g(\alpha,\beta,\delta)&=-5.09534518e+00-2.07111918e+00\ln\alpha-2.37279424e-01\ln\beta+5.12451816e+00\delta+3.89474467e-02(\ln\alpha)^2-4.39574564e-01\ln\alpha\ln\beta+6.48947095e-01\delta\ln\alpha+5.18277255e-01(\ln\beta)^2+2.50990400e-01\delta\ln\beta-2.06314745e+00\delta^2.
+\end{aligned}
